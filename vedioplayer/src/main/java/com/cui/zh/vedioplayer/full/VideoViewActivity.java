@@ -86,7 +86,8 @@ public class VideoViewActivity extends AppCompatActivity{
     private void initVideoView() {
         videoView = (VideoView) findViewById(R.id.videoView);
         // 控制(暂停,播放,快进等)
-        videoView.setMediaController(new MediaController(this));
+//        videoView.setMediaController(new MediaController(this));
+        videoView.setMediaController(new CustomMediaController(this));
         videoView.setKeepScreenOn(true);
         videoView.requestFocus();
         // 资源准备监听处理
