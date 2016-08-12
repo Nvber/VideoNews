@@ -1,4 +1,4 @@
-package com.cui.zh.vedioplayer.full;
+package com.cui.zh.vedioplayer.f.full;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,7 +14,6 @@ import com.cui.zh.vedioplayer.R;
 import java.util.Locale;
 
 import io.vov.vitamio.MediaPlayer;
-import io.vov.vitamio.widget.MediaController;
 import io.vov.vitamio.widget.VideoView;
 
 /**

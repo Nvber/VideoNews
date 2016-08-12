@@ -3,7 +3,7 @@ package com.cui.myvideonew;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.cui.zh.vedioplayer.full.VideoViewActivity;
+import com.cui.zh.vedioplayer.f.full.VideoViewActivity;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
